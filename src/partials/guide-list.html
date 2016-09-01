@@ -1,0 +1,14 @@
+<table class="table table-striped">
+  <tr>
+    <th>Title</th>
+    <th>Type</th>
+    <th>Price</th>
+  </tr>
+  <tbody ng-repeat="guide in guides">
+    <tr>
+      <td>{{guide.title}}</td>
+      <td>{{guide.type}}</td>
+      <td>${{guide.price}}</td>
+    </tr>
+  </tbody>
+</table>
